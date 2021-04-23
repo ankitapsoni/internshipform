@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Tech Table Internship Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            <div>
+                <h1>Tech Table Internship Form</h1>
+                <hr>
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter name" name="name" required>
+                <br><br>
+                <lable for="email"><b>Email</b></lable>
+                <input type="email" placeholder="Enter email" name="email" required>
+                <br><br>
+                <label for="pno"><b>Phone Number</b></label>
+                <input type="tel" placeholder="Enter Phone Number" name="pno" required>
+                <br><br>
+                <label for="dob"><b>Date of Birth</b></label>
+                <input type="date" name="dob" value="2001-04-30" max="2001-04-30" required>
+                <br><br>
+                <lable for="passyear"><b>Year Of Graduation</b></lable>
+                <input type="month" name="passyear" value="2021-04" max="2021-04" required>
+                <br><br>
+                <label for="dept"><b>Department Of Study</b></label>
+                <select name="dept" id="dept">
+                    <option value="BTech Computer">BTech Computer</option>
+                    <option value="BTech Mechanical">BTech Mechanical</option>
+                    <option value="BTech Electrical">BTech Electrical</option>
+                    <option value="BTech EC">BTech EC</option>
+                    <option value="BTech Civil">BTech Civil</option>
+                    <option value="BTech Chemical">BTech Chemical</option>
+                    <option value="BSc Computer">BSc Computer</option>
+                    <option value="BSc Science">Bsc Science</option>
+                    <option value="BSc IT">BSc IT</option>
+                    <option value="BSc Maths">BSc Maths</option>
+                    <option value="BSc Chemistry">BSc Chemistry</option>
+                    <option value="BSc Physics">BSc Physics</option>
+                    <option value="BSc Biology">BSc Biology</option>
+                    <option value="MSc Computer & IT">MSc Computer & IT</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+                <label for="resume"><b>Choose File to upload your Resume </b></label>
+                <input type="file" name="resume" id="resumefile"></input>
+                <br><br>
+                <input type="Submit" name="Submit" id="submitbtn">
+
+            </div>
+        </form>
+    </body>
+</html>
